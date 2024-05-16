@@ -2,7 +2,7 @@
 
 [![hugging](https://img.shields.io/badge/🤗%20Hugging%20Face-Datasets-yellow)](https://huggingface.co/datasets/vera365/lexica_dataset)
 [![arXiv: paper](https://img.shields.io/badge/arXiv-paper-red.svg)](https://arxiv.org/abs/2302.09923)
-[![license](https://img.shields.io/badge/License-CC_BY_4.0/MIT-blue)](#licensing)
+[![license](https://img.shields.io/badge/License-CC_BY_4.0/MIT-blue)](#license)
 
 This is the official implementation of the USENIX 2024 paper [Prompt Stealing Attacks Against Text-to-Image Generation Models](https://arxiv.org/abs/2302.09923).
 
@@ -12,7 +12,7 @@ LexicaDataset is a large-scale text-to-image prompt dataset containing **61,467 
 
 LexicaDataset is available at [🤗 Hugging Face Datasets](https://huggingface.co/datasets/vera365/lexica_dataset).
 
-**Loading LexicaDataset**
+**Load LexicaDataset**
 
 You can use the Hugging Face [`Datasets`](https://huggingface.co/docs/datasets/quickstart) library to easily load prompts and images from LexicaDataset.
 
@@ -53,7 +53,7 @@ Code will be released soon!
 
 According to the [terms and conditions of Lexica](https://lexica.art/terms), images on the website are available under the Creative Commons Noncommercial 4.0 Attribution International License. We strictly followed Lexica’s Terms and Conditions, utilized only the official Lexica API for data retrieval, and disclosed our research to Lexica. We also responsibly disclosed our findings to related prompt marketplaces.
 
-## Licensing
+## License
 
 LexicaDataset is available under the [CC-BY 4.0 License](https://creativecommons.org/licenses/by/4.0/). The code in this repository is available under the [MIT License](./LICENSE).
 
