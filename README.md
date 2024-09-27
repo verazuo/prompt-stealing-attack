@@ -117,7 +117,7 @@ Then, train the modifier detector
 nohup python train_modifier_detector.py > train_modifier_detector.log & 
 
 ... ...
-             metric  adaptive
+             metric      pred
 0           semantic    0.6999
 1           modifier    0.4477
 ```
