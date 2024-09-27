@@ -1,0 +1,25 @@
+image_root: 'vera365/lexica_dataset'
+
+# set pretrained as a file path or an url
+pretrained: 'https://storage.googleapis.com/sfr-vision-language-research/BLIP/models/model_large_caption.pth'
+med_config: 'src/BLIP_finetune/configs/med_config.json'
+
+# size of vit model; base or large
+vit: 'large'
+vit_grad_ckpt: True
+vit_ckpt_layer: 5
+batch_size: 16 # if cuda out of memory, reduce batch size
+init_lr: 2e-6
+
+image_size: 384
+
+# generation configs
+max_length: 20  
+min_length: 5
+num_beams: 3
+prompt: ''
+
+# optimizer
+weight_decay: 0.05
+min_lr: 0
+max_epoch: 20

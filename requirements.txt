@@ -1,0 +1,29 @@
+torch
+torchvision
+inplace-abn
+pycocotools
+randaugment
+scikit-learn
+fairscale
+imagehash
+ipyplot
+numpy==1.22.3
+pandas==1.3.5
+scikit-image
+
+# Install CLIP: https://github.com/openai/CLIP/blob/dcba3cb2e2827b402d2701e7e1c7d9fed8a20ef1/README.md?plain=1#L20
+ftfy
+regex
+tqdm
+git+https://github.com/openai/CLIP.git
+
+# For finetune BLIP
+timm==0.4.12
+transformers==4.15.0
+fairscale==0.4.4
+pycocoevalcap
+opencv-python-headless<4.3
+opencv-contrib-python-headless<4.3
+ruamel.yaml==0.17.32
+datasets
+pillow==10.4.0
