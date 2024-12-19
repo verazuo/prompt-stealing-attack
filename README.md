@@ -54,7 +54,7 @@ The following code are run and tested on A100 GPU.
 The environment requirement:
 > cuda toolkit 11.7, python 3.8, pytorch 1.12.0a0+8a1a93a
 
-You can access it from the official docker image provided by Nvidia: `nvcr.io/nvidia/pytorch:22.05-py3`
+You can access it from the official docker image provided by Nvidia: [`nvcr.io/nvidia/pytorch:22.05-py3`](https://docs.nvidia.com/deeplearning/frameworks/pytorch-release-notes/rel_22-05.html).
 After building the container, install necessary packages:
 
 ```
