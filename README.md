@@ -1,7 +1,8 @@
 # Prompt Stealing Attacks Against Text-to-Image Generation Models
 
-[![hugging](https://img.shields.io/badge/🤗%20Hugging%20Face-Datasets-yellow)](https://huggingface.co/datasets/vera365/lexica_dataset)
-[![arXiv: paper](https://img.shields.io/badge/arXiv-paper-red.svg)](https://arxiv.org/abs/2302.09923)
+[![USENIX: 2024](https://img.shields.io/badge/USENIX-2024-red.svg)](https://www.usenix.org/conference/usenixsecurity24/presentation/shen-xinyue)
+[![arXiv: preprint](https://img.shields.io/badge/arXiv-preprint-orange.svg)](https://arxiv.org/abs/2302.09923)
+[![dataset: huggingface](https://img.shields.io/badge/dataset-huggingface-yellow)](https://huggingface.co/datasets/vera365/lexica_dataset)
 [![license](https://img.shields.io/badge/License-CC_BY_4.0/MIT-blue)](#license)
 
 This is the official implementation of the USENIX 2024 paper [Prompt Stealing Attacks Against Text-to-Image Generation Models](https://arxiv.org/abs/2302.09923).
